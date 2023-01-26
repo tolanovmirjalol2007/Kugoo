@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cooperation lesson 3</title>
+    <link rel="stylesheet" href="../css/cooperation.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav>
+            <div class="menu">
+                <a href="#">Сервис</a>
+                <a href="#">Сотрудничество</a>
+                <a href="#">Заказать звонок</a>
+                <i class="fab fa-viber text-1xl cursor-pointer"></i>
+                <i class="fas fa-phone cursor-pointer"></i>
+                <i class="fab fa-telegram cursor-pointer"></i>
+
+            </div>
+            <div class="call">
+                <a href="tell:+7 (800) 505-54-61">+7 (800) 505-54-61</a>
+                <i class="fas fa-circle-plus cursor-pointer  "></i>
+            </div>
+        </nav>
+        <div class="navbar">
+            <img src="./images/Kugoo.png" alt="">
+            <button>Каталог</button>
+
+            <input class="outline-none" type="text" id="name" placeholder="Искать самокат KUGO">
+            <i class="fas fa-search"></i>
+            <div class="img">
+                <img src="./images/Vector (4).png" alt="">
+                <i class="fas fa-scale-balanced"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-basket-shopping text-[#6F73EE]"></i>
+                <p>Корзина</p>
+            </div>
+        </div>
+        <header>
+            <div class="magazine flex pb-10 gap-0">
+                <button
+                    class="w-[146px] h-[27px] rounded-2xl hover:rounded-2xl hover:bg-[#6F73EE] hover:text-white        duration-500"><a
+                        href="#">О магазине</a></button>
+                <button
+                    class="w-[216px] h-[27px] rounded-2xl hover:rounded-2xl hover:bg-[#6F73EE] hover:text-white      duration-500"><a
+                        href="#">Доставка и оплата</a></button>
+                <button
+                    class="w-[216px] h-[27px] rounded-2xl hover:rounded-2xl hover:bg-[#6F73EE] hover:text-white     duration-500">Доступна
+                    рассрочка</button>
+                <button
+                    class="w-[146px] h-[27px] rounded-2xl hover:rounded-2xl hover:bg-[#6F73EE] hover:text-white     duration-500"><a
+                        href="#">Тест-драйв</a></button>
+                <button
+                    class="w-[146px] h-[27px] rounded-2xl hover:rounded-2xl hover:bg-[#6F73EE] hover:text-white     duration-500">
+                    <a href="#">Блог</a></button>
+                <button
+                    class="w-[146px] h-[27px] rounded-2xl hover:rounded-2xl hover:bg-[#6F73EE] hover:text-white     duration-500"><a
+                        href="#">Контакты</a></button>
+                <button
+                    class="w-[146px] h-[27px] rounded-2xl hover:rounded-2xl hover:bg-[#6F73EE] hover:text-white     duration-500"><a
+                        href="#">Акции</a></button>
+                <div
+                    class="text-[#FFFFFF] ml-2 w-[25px] h-[25px] rounded-full text-[12px] bg-[#6F73EE] flex items-center justify-center pr-.8 cursor-pointer">
+                    %</div>
+            </div>
+            <header class="w-full min-h-screen">
+                <div class="kugoo-tovar w-[1300px] ml-7 pt-10 min-h-[445px] bg-[#F4F7FB] mt-16">
+                    <div class="flex">
+                        <div class="flex flex-col">
+                            <h1 class="text-[35px] text-black font-bold pl-20 uppercase">Покупайте товары Kugoo <br>
+                                по оптовым ценам <br> от официального дилера</h1>
+                            <p class="text-[20px] text-[#282739] pt-4 pl-20">Ваша прибыль — до 25% от закупочной
+                                стоимости 1 единицы товара</p>
+                            <div class="flex mt-10 ml-20">
+                                <div class="w-[230px] h-[40px]   flex justify-center items-center">
+                                    <div class="w-[40px] h-[40px] flex bg-[#c6c7dd] items-center justify-center ">
+                                        <i class="fas fa-wallet text-[#6F73EE]"></i>
+                                    </div>
+                                    <h1 class="text-[14px] text-black font-medium ml-4 ">Отсутствие демпинга — <br>
+                                        контроль цен и МРЦ</h1>
+                                </div>
+                                <div class="w-[230px] h-[40px]   flex justify-center items-center">
+                                    <div class="w-[40px] h-[40px] flex bg-[#c6c7dd] items-center justify-center ">
+                                        <i class="fas fa-box text-[#6F73EE]"></i>
+                                    </div>
+                                    <h1 class="text-[14px] text-black font-medium ml-4 ">Бесплатная доставка <br> до
+                                        любой ТК</h1>
+
+                                </div>
+                            </div>
+                            <div class="flex mt-10 ml-20">
+                                <div class="w-[230px] h-[40px]   flex justify-center items-center">
+                                    <div class="w-[40px] h-[40px] flex bg-[#c6c7dd] items-center justify-center ">
+                                        <i class="fas fa-rotate-right text-[#6F73EE]"></i>
+                                    </div>
+                                    <h1 class="text-[14px] text-black font-medium ml-4 ">Беспроблемный <br> возврат и
+                                        замена брака</h1>
+                                </div>
+                                <div class="w-[250px] h-[40px] ml-4  flex justify-center items-center">
+                                    <div class="w-[40px] h-[40px] flex bg-[#c6c7dd] items-center justify-center ">
+                                        <i class="fas fa-image text-[#6F73EE]"></i>
+                                    </div>
+                                    <h1 class="text-[14px] text-black font-medium ml-4 ">Готовый медиаконтент <br>
+                                        для вашего сайта и соцсетей</h1>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[377px] min-h-[364px] rounded-lg bg-[#6F73EE] ml-20 pt-5 flex flex-col gap-3">
+                            <h1 class="text-white text-[20px] uppercase font-bold text-center">Получите прайс-лист
+                                <br> с оптовыми ценами
+                            </h1>
+                            <p class="text-white text-[14px] text-center">а также рассчитаем вашу прибыль <br> от
+                                продажи товаров Kugoo</p>
+
+
+                            <input
+                                class="capitalize bg-blue-300/50 pl-10 ml-5 rounded-md text-white placeholder:text-white outline-none w-[337px] h-[53px]"
+                                type="text" id="tell:" placeholder="+7 (___)  -  - ">
+                            <div class="w-[337px] rounded-md flex items-center justify-center ml-5 h-[53px] bg-white"><a
+                                    class="text-[#6F73EE] text-[16px]" href="#">Скачать прайс-лист</a></div>
+                            <div class="text-white flex gap-2 mt-4">
+                                <input type="checkbox" class="w-[16px] h-[16px] mt-2.5 ml-5">
+                                <p class="text-[12px]">Нажимая на кнопку, вы соглашаетесь на обработку <br> персональных
+                                    данных и <a class="underline" href=" политикой конфиденциальности"> политикой
+                                        конфиденциальности</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="samokat-tovar w-full min-h-screen">
+                <h1 class="text-black font-semibold text-[35px] text-center uppercase">Выбирайте популярные товары <br>
+                    без наценок посредников</h1>
+
+
+                <div class="flex">
+                    <div class="card-samokat w-[275px] h-[540px] mt-20 ml-10 border rounded-md">
+                        <div
+                            class="cards w-[275px] h-[250px] bg-[url(../images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                            <div class="btn-icon flex relative">
+                                <button
+                                    class="w-[50px] h-[30px] absolute bg-[#EE685F] text-white bottom-[40px] left-[10px] rounded-md">ХИТ</button>
+                                <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                            </div>
+                            <div class="icons flex justify-around gap-[150px] pt-10">
+                                <div class="text-blue-500 w-[40px] h-[40px] bg-white rounded-full"><i
+                                        class="fas fas fa-chevron-left pt-3 pl-3"></i></div>
+                                <div class="text-blue-500 w-[40px] h-[40px] bg-white rounded-full"><i
+                                        class="fas fas fa-chevron-right pt-3 pl-3"></i></div>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                            <div class="flex gap-2 pt-3">
+                                <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                                <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                                <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                                <h2 class="text-gray-400">1,2 л.с.</h2>
+                            </div>
+                            <div class="flex gap-2 pt-3">
+                                <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="../images/speedometer 1.png"
+                                    alt="">
+                                <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                                <div class="img ml-14  pt-1">
+                                    <img class=" text-gray-400 w-[30px] h-[22px]" src="../images/09-timer.png" alt="">
+                                </div>
+                                <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                            </div>
+                            <div class="flex gap-3">
+                                <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900
+                                        ₽</span><br><span class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                                <div
+                                    class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  ">
+                                    <i class="fas fa-basket-shopping cursor-pointer"></i>
+                                </div>
+                                <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                        class="fas fa-heart cursor-pointer"></i></div>
+                            </div>
+                            <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1
+                                клик</button>
+                        </div>
+                    </div>
+                    <div class="card-samokat w-[275px] h-[540px] mt-20 ml-10 border rounded-md">
+                        <div
+                            class="cards w-[275px] bg-[url(../images/38.png)] bg-no-repeat h-[250px] bg-[#F0F1F5] pt-20">
+                            <div class="btn-icon flex relative">
+                                <button
+                                    class="w-[70px] h-[30px] absolute bg-[#75D14A] text-white bottom-[40px] left-[10px] rounded-md">Новинка</button>
+                                <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                            </div>
+                            <div class="icons flex justify-around gap-[150px] pt-10">
+
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                            <div class="flex gap-2 pt-3">
+                                <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                                <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                                <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                                <h2 class="text-gray-400">1,2 л.с.</h2>
+                            </div>
+                            <div class="flex gap-2 pt-3">
+                                <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="../images/speedometer 1.png"
+                                    alt="">
+                                <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                                <div class="img ml-14  pt-1">
+                                    <img class=" text-gray-400 w-[30px] h-[22px]" src="../images/09-timer.png" alt="">
+                                </div>
+                                <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                            </div>
+                            <div class="flex gap-3">
+                                <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900
+                                        ₽</span><br><span class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                                <div
+                                    class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  ">
+                                    <i class="fas fa-basket-shopping cursor-pointer"></i>
+                                </div>
+                                <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                        class="fas fa-heart cursor-pointer"></i></div>
+                            </div>
+                            <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1
+                                клик</button>
+                        </div>
+                    </div>
+                    <div class="card-samokat w-[275px] h-[540px] mt-20 ml-10 border rounded-md">
+                        <div
+                            class="cards w-[275px] h-[250px] bg-[url(../images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                            <div class="btn-icon flex relative">
+                                <button
+                                    class="w-[50px] h-[30px] absolute bg-[#EE685F] text-white bottom-[40px] left-[10px] rounded-md">ХИТ</button>
+                                <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                            </div>
+                            <div class="icons flex justify-around gap-[150px] pt-10">
+
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                            <div class="flex gap-2 pt-3">
+                                <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                                <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                                <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                                <h2 class="text-gray-400">1,2 л.с.</h2>
+                            </div>
+                            <div class="flex gap-2 pt-3">
+                                <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="../images/speedometer 1.png"
+                                    alt="">
+                                <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                                <div class="img ml-14  pt-1">
+                                    <img class=" text-gray-400 w-[30px] h-[22px]" src="../images/09-timer.png" alt="">
+                                </div>
+                                <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                            </div>
+                            <div class="flex gap-3">
+                                <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900
+                                        ₽</span><br><span class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                                <div
+                                    class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  ">
+                                    <i class="fas fa-basket-shopping cursor-pointer"></i>
+                                </div>
+                                <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                        class="fas fa-heart cursor-pointer"></i></div>
+                            </div>
+                            <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1
+                                клик</button>
+
+                        </div>
+                    </div>
+
+                    <div class="card-samokat w-[275px] h-[540px] mt-20 ml-10 border rounded-md">
+                        <div
+                            class="cards w-[275px] h-[250px] bg-[url(../images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                            <div class="btn-icon flex relative">
+                                <button
+                                    class="w-[70px] h-[30px] absolute bg-[#75D14A] text-white bottom-[40px] left-[10px] rounded-md">Новинка</button>
+                                <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                            </div>
+                            <div class="icons flex justify-around gap-[150px] pt-10">
+
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                            <div class="flex gap-2 pt-3">
+                                <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                                <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                                <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                                <h2 class="text-gray-400">1,2 л.с.</h2>
+                            </div>
+                            <div class="flex gap-2 pt-3">
+                                <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="../images/speedometer 1.png"
+                                    alt="">
+                                <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                                <div class="img ml-14  pt-1">
+                                    <img class=" text-gray-400 w-[30px] h-[22px]" src="../images/09-timer.png" alt="">
+                                </div>
+                                <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                            </div>
+                            <div class="flex gap-3">
+                                <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900
+                                        ₽</span><br><span class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                                <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border">
+                                    <i class="fas fa-basket-shopping cursor-pointer"></i>
+                                </div>
+                                <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                        class="fas fa-heart cursor-pointer"></i></div>
+                            </div>
+                            <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1
+                                клик</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full min-h-screen">
+                <div class="flex  mt-20">
+                    <h1 class="text-black text-[30px] font-bold uppercase pl-[97px]">Выбирайте популярные товары <br>без
+                        наценок посредников
+                        <p class="text-[12px] font-semibold text-black uppercase-none">являясь официальным дилером Kugoo
+                            в России</p>
+                    </h1>
+                    <div class="flex w-[293px] h-[82px] border justify-center items-center ml-[390px] rounded-lg gap-4">
+                        <h1 class="text-[#6F73EE] text-[51px] font-bold">93%</h1>
+                        <p class="text-[11px]">партнеров становятся <br> постоянными, благодаря <br> нашему подходу</p>
+                    </div>
+                </div>
+                <div class="flex justify-between mt-20">
+                    <div class="flex flex-col gap-4 ml-24">
+
+
+                        <h1 class="text-[18px] text-black font-bold">Сотрудничая с нами, вы получите:</h1>
+
+
+                        <h2 class="text-[14px] font-semibold"> <i
+                                class="fas fa-check w-[15px] h-[15px] pl-[1px] pt-[2px] bg-white rounded-full text-[10px] text-[#6F73EE] border border-[#6F73EE]"></i>
+                            Гарантию на товары 1 месяц и возможность приобрести годовую гарантию</h2>
+                        <h2 class="text-[14px] font-semibold"> <i
+                                class="fas fa-check w-[15px] h-[15px] pl-[1px] pt-[2px] bg-white rounded-full text-[10px] text-[#6F73EE] border border-[#6F73EE]"></i>
+                            Гарантию на товары 1 месяц и возможность приобрести годовую гарантию</h2>
+                        <h2 class="text-[14px] font-semibold"> <i
+                                class="fas fa-check w-[15px] h-[15px] pl-[1px] pt-[2px] bg-white rounded-full text-[10px] text-[#6F73EE] border border-[#6F73EE]"></i>
+                            Гарантию на товары 1 месяц и возможность приобрести годовую гарантию</h2>
+                        <h2 class="text-[14px] font-semibold"> <i
+                                class="fas fa-check w-[15px] h-[15px] pl-[1px] pt-[2px] bg-white rounded-full text-[10px] text-[#6F73EE] border border-[#6F73EE]"></i>
+                            Гарантию на товары 1 месяц и возможность приобрести годовую гарантию</h2>
+
+
+                        <div class="flex gap-7 mt-7">
+                            <div
+                                class="w-[188px] h-[108px] bg-[#F4F7FB] rounded-xl flex flex-col items-center justify-center">
+                                <h1 class="text-[#6F73EE]">До<span class="text-[25px] font-bold pl-1">25%</span></h1>
+                                <p class="text-black text-[12px] text-center">ваша прибыль с продажи единицы товара
+                                    Kugoote</p>
+                            </div>
+                            <div
+                                class="w-[188px] h-[108px] bg-[#F4F7FB] rounded-xl flex flex-col items-center justify-center">
+                                <h1 class="text-[#6F73EE]">от<span class="text-[25px] font-bold pl-1">3 шт.</span></h1>
+                                <p class="text-black text-[12px] text-center">минимальная <br> оптовая партия</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[452px] h-[322px] bg-[url(../images/39.png)] mr-[30px]">
+                        <div class="chevron-icons flex justify-between w-[402px] ml-5 mt-[137px] h-[50px] ">
+                            <div class="w-[42px] h-[42px] rounded-full bg-white"><i
+                                    class="fas fas fa-chevron-left pt-[13px] pl-[14px] text-[#6F73EE]"></i></div>
+                            <div class="w-[42px] h-[42px] rounded-full bg-[#6F73EE]"><i
+                                    class="fas fas fa-chevron-right pt-3 pl-4 text-white"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[96%] min-h-[119px] bg-[#6F73EE] rounded-md ml-8 flex items-center justify-center ">
+                <h1 class="text-white text-[16px] font-semibold">Давайте обсудим условия сотрудничества, <br> которые
+                    подходят именно для вашей компании</h1>
+                <input
+                    class="capitalize bg-blue-300/50 pl-10 ml-20 rounded-md text-white placeholder:text-white outline-none w-[337px] h-[53px]"
+                    type="text" id="tell:" placeholder="+7 (___)  -  - ">
+                <div class="w-[337px] rounded-md flex items-center justify-center ml-5 h-[53px] bg-white"><a
+                        class="text-[#6F73EE] text-[16px]" href="#">Скачать прайс-лист</a></div>
+            </div>
+            <div class="sklad-dostavka w-full min-h-screen mt-10">
+                <h1 class="text-black font-bold text-center uppercase text-[35px]">Доставляем со складов по <span
+                        class="text-[#6F73EE]">Москве, <br> Краснодару и минску бесплатно,</span> по России — <br> любой
+                    транспортной компанией на ваш выбор</h1>
+                <p class="text-center text-[18px] font-semibold pt-10">Ежегодно оформляем и доставляем более 1 000
+                    оптовых и розничных заказов. <br> Всегда в наличии на складах весь ассортимент, представленный в
+                    каталоге.</p>
+                <img class="mt-10" src="../images/40.png" alt="">
+            </div>
+            <div class="w-full min-h-screen pt-10">
+                <h1 class="text-[black] uppercase text-[35px] font-bold text-center">Покупайте товар тогда, когда
+                    получите <br>
+                    на него заказ и оплату от своего клиента</h1>
+                <p class="text-[18px] text-[#282739] text-center">За 4 года разработали удобную схему дропшипинга</p>
+                <div class="flex gap-16 ml-[160px] mt-10">
+                    <div class="flex flex-col">
+                        <div class="w-[110px] h-[110px] rounded-full bg-[#F4F7FB]">
+                            <img class="mt-9 ml-7" src="../images/41.png" alt="">
+                            <p class="text-[16px] text-black font-[500] mt-9">Покупатель</p>
+                            <div class="">
+                                <i class="fas fa-arrow-up text-[30px] text-[#6F73EE] pt-16 pl-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[60px] h-[110px] flex items-center justify-center">
+                        <i class="fas fa-arrow-right text-[30px] text-[#6F73EE]"></i>
+                    </div>
+                    <div class="w-[110px] h-[110px] rounded-full bg-[#F4F7FB]">
+                        <img class="mt-9 ml-7" src="../images/42.png" alt="">
+                        <p class="text-[16px] text-black font-[500] mt-9">Делает заказ</p>
+                    </div>
+                    <div class="w-[60px] h-[110px] flex items-center justify-center">
+                        <i class="fas fa-arrow-right text-[30px] text-[#6F73EE]"></i>
+                    </div>
+                    <div class="w-[110px] h-[110px] rounded-full bg-[#F4F7FB]">
+                        <img class="mt-9 ml-7" src="../images/43.png" alt="">
+                        <p class="text-[16px] text-black font-[500] mt-9 w-[160px]">Оплачивает вам</p>
+                    </div>
+                    <div class="w-[60px] h-[110px] flex items-center justify-center">
+                        <i class="fas fa-arrow-right text-[30px] text-[#6F73EE]"></i>
+                    </div>
+                    <div class="flex flex-col gap-10">
+                        <div class="w-[110px] h-[110px] rounded-full bg-[#F4F7FB]">
+                            <img class="mt-9 ml-7" src="../images/44.png" alt="">
+                            <p class="text-[16px] text-black font-[500] mt-9 w-[160px]">Продавец (Вы)</p>
+                        </div>
+                        <div class="w-[60px] h-[110px] flex items-center justify-center">
+                            <i class="fas fa-arrow-down text-[30px] text-[#6F73EE] ml-10"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex gap-16 ml-[160px] mt-10">
+                    <div class="w-[110px] h-[110px] rounded-full bg-[#F4F7FB]">
+                        <img class="mt-9 ml-7" src="../images/45.png" alt="">
+                        <p class="text-[16px] text-black font-[500] mt-9">Покупатель</p>
+                    </div>
+                    <div class="w-[60px] h-[110px] flex items-center justify-center">
+                        <i class="fas fa-arrow-left text-[30px] text-[#6F73EE]"></i>
+                    </div>
+                    <div class="w-[110px] h-[110px] rounded-full bg-[#F4F7FB]">
+                        <img class="mt-9 ml-7" src="../images/46.png" alt="">
+                        <p class="text-[16px] text-black font-[500] mt-9">Делает заказ</p>
+                    </div>
+                    <div class="w-[60px] h-[110px] flex items-center justify-center">
+                        <i class="fas fa-arrow-left text-[30px] text-[#6F73EE]"></i>
+                    </div>
+                    <div class="w-[110px] h-[110px] rounded-full bg-[#F4F7FB]">
+                        <img class="mt-9 ml-7" src="../images/47.png" alt="">
+                        <p class="text-[16px] text-black font-[500] mt-9 w-[160px]">Оплачивает вам</p>
+                    </div>
+                    <div class="w-[60px] h-[110px] flex items-center justify-center">
+                        <i class="fas fa-arrow-left text-[30px] text-[#6F73EE]"></i>
+                    </div>
+
+                    <div class="w-[110px] h-[110px] rounded-full bg-[#F4F7FB]">
+                        <img class="mt-9 ml-7" src="../images/48.png" alt="">
+                        <p class="text-[16px] text-black font-[500] mt-9 w-[160px]">Продавец (Вы)</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="w-[1190px] min-h-[495px] bg-[#6F73EE] ml-10 rounded-md flex mt-20">
+                <div class="flex flex-col gap-3 ml-20 mt-20">
+                    <button
+                        class="text-white w-[88px] h-[33px] bg-[#75D14A] flex justify-center items-center rounded-lg">Бесплатно</button>
+                    <h1 class="text-[35px] font-bold text-white uppercase">Получите готовый план <br> развития бизнеса
+                        <br> по продаже товаров Kugoo
+                    </h1>
+                    <p class="text-[18px] text-white font-[500]">Подготовим для вас бизнес-план, который включает:</p>
+                    <h2 class="text-[16px] font-semibold text-white flex gap-4"> <i
+                            class="fas fa-check w-[15px] h-[15px] pl-[1px] mt-[5px] pt-[2px]  rounded-full text-[10px] text-white border border-white"></i>индивидуалниг
+                        прайс-лист</h2>
+                    <h2 class="text-[16px] font-semibold text-white flex gap-4"> <i
+                            class="fas fa-check w-[15px] h-[15px] pl-[1px] mt-[5px] pt-[2px]  rounded-full text-[10px] text-white border border-white"></i>Медиаконтент,
+                        который можно разместить на своем сайте и соцсетях</h2>
+                    <h2 class="text-[16px] font-semibold text-white flex gap-4"> <i
+                            class="fas fa-check w-[15px] h-[15px] pl-[1px] mt-[5px] pt-[2px]  rounded-full text-[10px] text-white border border-white"></i>Удобные
+                        способы оплаты — наличный и безналичный расчет</h2>
+                    <h2 class="text-[16px] font-semibold text-white flex gap-4"> <i
+                            class="fas fa-check w-[15px] h-[15px] pl-[1px] mt-[5px] pt-[2px]  rounded-full text-[10px] text-white border border-white"></i>Отсутствие
+                        демпинга на рынке за счет контролируемой МРЦ</h2>
+                </div>
+                <div class="">
+                    <div
+                        class="w-[377px] min-h-[364px] rounded-lg bg-[#6F73EE] ml-20 pt-5 flex flex-col gap-3 border border-white mt-20">
+                        <h1 class="text-white text-[20px] uppercase font-bold text-center">Получите прайс-лист
+                            <br> с оптовыми ценами
+                        </h1>
+
+                        <p class="text-white text-[14px] text-center">а также рассчитаем вашу прибыль <br> от продажи
+                            товаров Kugoo</p>
+                        <input
+                            class="capitalize bg-blue-300/50 pl-10 ml-5 rounded-md text-white placeholder:text-white outline-none w-[337px] h-[53px]"
+                            type="text" id="tell:" placeholder="+7 (___)  -  - ">
+                        <div class="w-[337px] rounded-md flex items-center justify-center ml-5 h-[53px] bg-white"><a
+                                class="text-[#6F73EE] text-[16px]" href="#">Скачать прайс-лист</a></div>
+                        <div class="text-white flex gap-2 mt-4">
+                            <input type="checkbox" class="w-[16px] h-[16px] mt-2.5 ml-5">
+                            <p class="text-[12px]">Нажимая на кнопку, вы соглашаетесь на обработку <br> персональных
+                                данных и <a class="underline" href=" политикой конфиденциальности"> политикой
+                                    конфиденциальности</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full min-h-[90vh] flex">
+                <div class="flex flex-col gap-4 ml-20 mt-20">
+                    <h1 class="text-black text-[35px] font-[600] uppercase">Kugoo — самый <br> популярный бренд <br>
+                        электротранспортав России</h1>
+                    <p>Количество поисковых запросов от потенциальных клиентов <br> в 2020 г. по сравнению с 2019 г.
+                        выросло в 2 раза <br> согласно сервису оценки спроса и популярности.</p>
+                    <p>Kugoo имеет лидирующие позиции среди <br> конкурирующих брендов: спрос на продукцию от завода
+                        <br> Jilong выше в несколько раз.
+                    </p>
+                </div>
+                <div class="bg-[url(../images/49.png)] w-[573px] h-[330px] rounded-lg border ml-20 mt-20">
+
+                </div>
+            </div>
+            <div class="w-full min-h-screen">
+                <h1 class="text-[35px] uppercase font-bold text-black text-center">1 600+ положительных оценок <br>
+                    покупателей о продуктах Kugoo</h1>
+                <p class="text-[#6F73EE] text-center pt-4">Читать отзывы на Яндекс
+                    <i class="fas fa-arrow-right pl-2"></i>
+                <div class="my-photos flex gap-3 mt-5">
+                    <img src="../images/7.png" alt="">
+                    <img src="../images/8.png" alt="">
+                    <div
+                        class="bg-[url(../images/9.png)] w-[388px] h-[292px] bg-no-repeat rounded-lg flex flex-col gap-3 pt-20 pl-3">
+                        <div class="flex gap-3">
+                            <img src="../images/12.png" alt="">
+                            <h1 class="text-[16px] text-white">Илья М<br><span class="text-[12px]">Знаток города 2
+                                    уровня</span></h1>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star  text-yellow-400"></i>
+                            <i class="fas fa-star  text-yellow-400"></i>
+                            <i class="fas fa-star  text-yellow-400"></i>
+                            <i class="fas fa-star  text-yellow-400"></i>
+                            <p class="text-white text-[12px] pl-3">23 сентября 2020</p>
+
+                        </div>
+                        <h1 class="text-[12px] text-white">Магазин очень понравился, быстро обслужили, <br> персонал
+                            хорошо знает свой товар, вежливо и <br> грамотно консультирует, ассортимент внушительный,
+                            <br> а если чего нет сейчас в наличии, то можно без <br> проблем заказать на сайте, так что
+                            всем рекомендую!
+                        </h1>
+                    </div>
+                    <img src="../images/10.png" alt="">
+                    <img src="../images/11.png" alt="">
+                </div>
+                <div class="my-foto flex gap-3.5 mt-5">
+                    <img src="../images/11.png" alt="">
+                    <img src="../images/13.png" alt="">
+
+
+                    <img src="../images/14.png" alt="">
+                    <img src="../images/15.png" alt="">
+                    <img src="../images/16.png" alt="">
+
+                </div>
+                </p>
+                </p>
+            </div>
+            <div class="w-full min-h-screen flex">
+                <div class="flex flex-col gap-4 pt-[200px] ml-20">
+                    <h1 class="text-[35px] text-black font-bold uppercase">Общаемся с клиентами, чтобы <br> знать
+                        пожелания и предлагать <br> лучший ассортимент и сервис</h1>
+                    <p class="text-[18px]">И еще приняли активное участие в выставке «Велокульт 2021»</p>
+                    <p class="text-[#6F73EE]">Смотреть как это было<i class="fas fa-arrow-right pl-3 pt-[4px]"></i></p>
+                </div>
+                <div class="w-[355px] h-[270px] bg-[#F4F7FB] ml-28 mt-[170px] rounded-md flex flex-col pt-7 pl-8 gap-3">
+                    <img class="w-[288px] cursor-pointer" src="../images/vkontakte.png" alt="">
+                    <img class="w-[288px] cursor-pointer " src="../images/instagram.png" alt="">
+                    <img class="w-[288px] cursor-pointer" src="../images/youtube.png" alt="">
+                    <img class="w-[288px] cursor-pointer" src="../images/telegram.png" alt="">
+                </div>
+            </div>
+            <div class="w-full min-h-[80vh]">
+                <h1 class="text-[35px] text-black font-bold uppercase text-center">Отвечаем на частые вопросы</h1>
+                <div class="w-[730px] min-h-[360px] flex flex-col gap-10 ml-[300px] mt-[100px]">
+                    <p class="text-[16px] text-black font-semibold flex">Когда происходит отправка заказа? <i
+                            class="fas fa-plus pl-[400px]"></i></p>
+                    <p class="text-[16px] text-black font-semibold flex">Есть ли гарантия на товары? <i
+                            class="fas fa-plus pl-[454px]"></i></p>
+                    <p class="text-[16px] text-black font-semibold flex">Сколько стоит доставка товара до клиента? <i
+                            class="fas fa-plus pl-[338px]"></i></p>
+                    <p class="text-[16px] text-black font-semibold">Проверяется ли товар перед отправкой?<i
+                            class="fas fa-plus pl-[360px]"></i></p>
+                    <p class="text-[16px] text-black font-semibold flex">Какими ТК вы отправляете заказы? <i
+                            class="fas fa-plus pl-[400px]"></i></p>
+                </div>
+            </div>
+            <div class="w-[1280px] min-h-[445px] bg-[#F4F7FB] ml-10 rounded-md flex mt-20">
+                <div class="flex flex-col gap-3 ml-20 mt-20">
+
+                    <h1 class="text-[35px] font-bold text-black uppercase">Обсудите индивидуальное коммерческое
+                        предложениес личным менеджером</h1>
+
+                    <h2 class="text-[16px] font-semibold text-black flex gap-4"> <i
+                            class="fas fa-check w-[15px] h-[15px] pl-[1px] mt-[5px] pt-[2px]  rounded-full text-[10px] text-[#6F73EE] border border-[#6F73EE]"></i>индивидуалниг
+                        прайс-лист</h2>
+                    <h2 class="text-[16px] font-semibold text-black flex gap-4"> <i class="fas fa-check w-[15px] h-[15px] pl-[1px] mt-[5px] pt-[2px]  rounded-full text-[10px] text-[#6F73EE] border
+                            border-[#6F73EE]"></i>Медиаконтент, который можно разместить на своем сайте и соцсетях</h2>
+                    <h2 class="text-[16px] font-semibold text-[#000] flex gap-4"> <i
+                            class="fas fa-check w-[15px] h-[15px] pl-[1px] mt-[5px] pt-[2px]  rounded-full text-[10px] text-[#6F73EE] border border-[#6F73EE]"></i>Удобные
+                        способы оплаты — наличный и безналичный расчет</h2>
+
+                </div>
+                <div class="mr-20">
+                    <div
+                        class="w-[377px] min-h-[364px] rounded-lg bg-[#6F73EE] ml-20 pt-5 flex flex-col gap-3 border border-white mt-20">
+                        <h1 class="text-white text-[20px] uppercase font-bold text-center">Получите прайс-лист
+                            <br> с оптовыми ценами
+                        </h1>
+
+
+                        <p class="text-white text-[14px] text-center">а также рассчитаем вашу прибыль <br> от продажи
+                            товаров Kugoo</p>
+                        <input
+                            class="capitalize bg-blue-300/50 pl-10 ml-5 rounded-md text-white placeholder:text-white outline-none w-[337px] h-[53px]"
+                            type="text" id="tell:" placeholder="+7 (___)  -  - ">
+                        <div class="w-[337px] rounded-md flex items-center justify-center ml-5 h-[53px] bg-white"><a
+                                class="text-[#6F73EE] text-[16px]" href="#">Скачать прайс-лист</a></div>
+                        <div class="text-white flex gap-2 mt-4">
+                            <input type="checkbox" class="w-[16px] h-[16px] mt-2.5 ml-5">
+                            <p class="text-[12px]">Нажимая на кнопку, вы соглашаетесь на обработку <br> персональных
+                                данных и <a class="underline" href=" политикой конфиденциальности"> политикой
+                                    конфиденциальности</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="w-full min-h-screen">
+                <div class="w-full min-h-[605px] border mt-20 bg-[#F4F7FB]">
+                    <div class="w-full h-[97px] bg-[#6F73EE] flex gap-10 items-center justify-center">
+                        <h1 class="uppercase text-white text-[18px] font-[600] ">Оставьте свою почту и станьте первым,
+                            <br> кто получит скидку на новые самокаты
+                        </h1>
+                        <input class="rounded-md pl-5 capitalize text-white placeholder:text-white outline-none"
+                            type="text" id="email" placeholder="Введите Ваш email">
+                        <div class="w-[140px] h-[53px] bg-white text-[#6F73EE] flex justify-center items-center"><a
+                                href="#">Подписаться</a></div>
+                    </div>
+                    <div class="flex gap-12 ml-20 mt-20">
+                        <div class="flex flex-col gap-5">
+                            <h1 class="text-black text-[24px] font-medium">Каталог товаров</h1>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Электросамокаты</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Электроскутеры</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Электровелосипеды</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Электровелосипеды</a>
+                        </div>
+                        <div class="flex flex-col gap-6">
+                            <h1 class="text-black text-[24px] font-medium">Покупателям</h1>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Сервисный центр</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Доставка и оплата</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Рассрочка</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Тест-драйв</a>
+                        </div>
+                        <div class="flex flex-col gap-6 pt-12">
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Блог</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Сотрудничество</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Контакты</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Акции</a>
+                        </div>
+                        <div class="flex flex-col gap-4 ">
+                            <h1 class="text-black text-[24px] font-medium">Контакты</h1>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Call-центр</a>
+                            <a class="text-black text-2xl" href="tell:+7 (800) 505-54-61">+7 (800) 505-54-61</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Пн-Вс 10:00 - 20:00</a>
+                            <p class="text-black text-[14px] pt-5">Магазин в Москве <br>
+                                ул. Ткацкая, 5 стр. 16</p>
+                            <a class="font-[14px] text-[#5D6C7B]" href="tel:+7 (499) 406 15 87">+7 (499) 406 15 87</a>
+                        </div>
+                        <div class="flex flex-col gap-4 mt-10">
+
+
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Сервисный центр</a>
+                            <a class="text-black text-[16px]" href="tel:+7 (499) 350-76-92">+7 (499) 350-76-92</a>
+                            <a class="font-[14px] text-[#5D6C7B]" href="#">Пн-Вс 10:00 - 20:00</a>
+                            <h1 class="text-black text-[14px] pt-5">Магазин в Санкт- <br> Петербурге <br> ул. Фрунзе, 2
+                            </h1>
+                            <a class="font-[14px] text-[#5D6C7B]" href="tel:+7 (499) 406 15 87">+7 (499) 406 15 87</a>
+
+                        </div>
+                        <div class="flex flex-col">
+                            <a class="text-[12px] text-[#6F73EE] pl-10" href="Заказать звонок">Заказать звонок</a>
+                            <h1 class="text-black text-[14px] pt-[170px]">Магазин в Краснодаре <br>
+                                ул. Восточно- <br> Кругликовская, 86</h1>
+                            <a class="font-[14px] text-[#5D6C7B] pt-5" href="tel:+ 7 (800) 505 54 61">+ 7 (800) 505 54
+                                61</a>
+
+                        </div>
+                    </div>
+                    <div class="flex mt-5 ml-20 gap-5">
+                        <h1 class="text-black text-4xl uppercase font-[800]">Kugoo</h1>
+                        <img class="ml-16" src="../images/25.png" alt="">
+                        <img src="./images/26.png" alt="">
+                        <img class="ml-28" src="../images/27.png" alt="">
+                        <img src="../images/28.png" alt="">
+                        <img src="../images/29.png" alt="">
+                        <img src="../images/30.png" alt="">
+                    </div>
+                    <div class="flex gap-5 ml-20 mt-8">
+                        <p class="text-[12px] text-[#5D6C7B]">Реквизиты</p>
+                        <p class="text-[12px] text-[#5D6C7B]">Политика конфиденциальности</p>
+                        <img class="ml-[300px]" src="../images/31.png" alt="">
+                        <img src="../images/32.png" alt="">
+                        <img src="../images/33.png" alt="">
+                        <img src="../images/34.png" alt="">
+                        <img src="../images/35.png" alt="">
+                        <img src="../images/36.png" alt="">
+                        <img src="../images/37.png" alt="">
+                        <a href="Online чат:">Online чат:</a>
+                        <i class="fab fa-viber text-black pt-1"></i>
+                        <i class="fab fa-viber text-black pt-1"></i>
+                        <i class="fab fa-telegram    text-black pt-1"></i>
+                    </div>
+                </div>
+            </footer>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

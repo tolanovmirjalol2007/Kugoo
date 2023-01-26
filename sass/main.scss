@@ -1,0 +1,343 @@
+@import "./components/footer";
+@import "./components/buttons";
+@import "./components/cart";
+@import "./components/elements";
+@import "./components/forms";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.kugoo {
+    width: 100%;
+    min-height: 100vh;
+
+    nav {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+
+        .menu {
+            display: flex;
+            gap: 30px;
+            color: gray;
+            padding-top: 20px;
+            padding-left: 60px;
+        }
+
+        .menu a {
+            color: gray;
+            font-size: 20px;
+        }
+
+        .menu i {
+            font-size: 20px;
+        }
+
+        .call {
+            display: flex;
+            gap: 20px;
+            padding-right: 50px;
+            padding-top: 20px;
+        }
+
+        .call a {
+            color: black;
+            font-size: 20px;
+        }
+
+        .call i {
+            padding-top: 4px;
+            font-size: 20px;
+            background-color: #fff;
+        }
+
+    }
+
+    .navbar {
+        padding-top: 20px;
+        display: flex;
+        gap: 50px;
+        padding-left: 60px;
+    }
+
+    .navbar button {
+        width: 120px;
+        height: 30px;
+        background: #6F73EE;
+        margin-top: 6px;
+        color: #fff;
+
+    }
+
+    .navbar button:hover {
+        border: 1px solid #6F73EE;
+        background-color: white;
+        transition-duration: .6s;
+        color: black;
+    }
+
+    .navbar input {
+        padding-left: 40px;
+        border: 2px solid #6F73EE;
+        width: 600px;
+        height: 40px;
+        color: #5D6C7B;
+    }
+
+    .navbar>i {
+        padding-left: 12px;
+        gap: none;
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        padding-top: 10px;
+        background: #6F73EE;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .navbar .img {
+        height: 30px;
+        display: flex;
+        padding-top: 16px;
+    }
+
+    .navbar .img i {
+        padding-left: 14px;
+    }
+
+    .navbar .img p {
+        padding-left: 10px;
+        padding-bottom: 0;
+    }
+
+    header {
+        width: 100%;
+        height: 100vh;
+
+        .magazine {
+            
+            display: flex;
+            gap: 50px;
+            width: 100%;
+            height: 10vh;
+            background: #F4F7FB;
+
+
+        }
+
+        .magazine a {
+            color: black;
+            font-size: 15px;
+            font-weight: 700;
+
+        }
+
+        .magazine button {
+            width: 200px;
+            height: 30px;
+            color: white;
+            background: #6F73EE;
+            border-radius: 20px;
+        }
+
+        .magazine img {
+            width: 30px;
+            height: 24px;
+            color: white;
+        }
+
+        .new-header {
+            margin-left: 40px;
+            margin-top: 40px;
+            padding-top: 30px;
+            padding-left: 30px;
+            display: flex;
+            width: 97%;
+            height: 67vh;
+            background: radial-gradient(58.73% 541.94% at 75.14% 62.23%, #A6A9FF 0%, #6F73EE 100%)
+                /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+            ;
+        }
+
+        .new-header button {
+            width: 100px;
+            height: 40px;
+            border: 2px solid white;
+            color: black;
+            background: white;
+            border-radius: 10px;
+            transition-duration: .6s;
+        }
+
+        .new-header button:hover {
+            height: 40px;
+            background: none;
+            border: 2px solid white;
+            color: white;
+            font-weight: 700;
+        }
+
+        .new-header h1 {
+            padding-top: 10px;
+            color: white;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .new-header h2 {
+            color: white;
+            padding-top: 10px;
+            font-size: 20px;
+        }
+
+        .new-header a {
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-around;
+            padding: 10px 10px;
+            width: 247px;
+            background: white;
+            color: #6F73EE;
+            font-weight: 600;
+        }
+
+        .new-header img {
+            padding-left: 20px;
+        }
+
+        .new-right button {
+            margin-top: 300px;
+            width: 317px;
+            height: 46px;
+            display: flex;
+            gap: 2px;
+            padding-top: 10px;
+
+        }
+
+        .new-right button:hover {
+            background: none;
+            height: 46px;
+            font-weight: normal;
+            border: 1px solid white;
+        }
+
+        .new-right button img {
+            padding: 1px
+        }
+
+        .new-right>img {
+            width: 500px;
+        }
+    }
+
+    .header-bars {
+        width: 80%;
+        height: 80px;
+
+        .rasrochka {
+            display: flex;
+            gap: 100px;
+        }
+
+        .rasrochka h1 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .podarki {
+            display: flex;
+            gap: 160px;
+        }
+
+        .podarki h2 {
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+}
+
+.samokati {
+    width: 100%;
+    min-height: 190vh;
+}
+
+.podbor-model {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.podbor-model button {
+    display: flex;
+    margin-left: 45%;
+    margin-top: 50px;
+    width: 142px;
+    height: 53px;
+    border: 1.3px solid #6F73EE;
+    color: #6F73EE;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Робот-пылесоссы {
+    background-image: url("../images/feki.png");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.Электровелосипеды {
+    background-image: url(../images/velosiped.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.Весы {
+    background-image: url(../images/phone.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.Робот-пылесоссы {
+    background-image: url(../images/white-robot-vacuum-cleaner-effectively-cleans-floor-automatic-mode\ 1.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.new-div button {
+    display: flex;
+    margin-left: 45%;
+    margin-top: 50px;
+    width: 142px;
+    height: 53px;
+    border: 1.3px solid #6F73EE;
+    color: #6F73EE;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.new-div .new-image {
+    background-image: url(../images/happy.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 606px;
+    padding-top: 100px;
+}
+
+footer input {
+    border: none;
+    color: white;
+    width: 410px;
+    height: 53px;
+    background: #ffffff33;
+}

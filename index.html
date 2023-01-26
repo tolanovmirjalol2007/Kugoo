@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS lesson 3</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="kugoo">
+        <nav>
+            <div class="menu">
+                <a href="#">Сервис</a>
+                <a href="#">Сотрудничество</a>
+                <a href="#">Заказать звонок</a>
+                <i class="fas fa-phone-square-alt cursor-pointer"></i>
+                <i class="fas fa-phone cursor-pointer"></i>
+                <i class="fab fa-telegram cursor-pointer"></i>
+            </div>
+            <div class="call">
+                <a href="tell:+7 (800) 505-54-61">+7 (800) 505-54-61</a>
+                <i class="fas fa-circle-plus cursor-pointer"></i>
+            </div>
+        </nav>
+        <div class="navbar">
+            <img src="./images/Kugoo.png" alt="">
+            <button>Каталог</button>
+            <input type="text" id="name" placeholder="Искать самокат KUGO">
+            <i class="fas fa-search cursor-pointer"></i>
+            <div class="img">
+                <i class="fas fa-scale-balanced cursor-pointer"></i>
+                <i class="fas fa-heart cursor-pointer"></i>
+                <i class="fas fa-basket-shopping cursor-pointer"></i>
+                <p>Корзина</p>
+            </div>
+        </div>
+        <header>
+            <div class="magazine">
+                <a href="#">О магазине</a>
+                <a href="#">Доставка и оплата</a>
+                <button>Доступна рассрочка</button>
+                <a href="#">Тест-драйв</a>
+                <a href="#">Блог</a>
+                <a href="#">Контакты</a>
+                <a href="#">Акции</a>
+                <img src="./images/1.png" alt="">
+            </div>
+            <div class="new-header">
+                <div class="left">
+                    <button class="px-4">Новинка</button>
+                    <h1>Электросамокаты Kugoo Kirin <br> от официального дилера</h1>
+                    <h2>с бесплатной доставкой по РФ от 1 дня</h2>
+                    <a href="#">Перейти в католог</a>
+                    <img src="./images/Group 1651.png" alt="">
+                </div>
+                <div class="new-right flex">
+                    <button><img src="./images/image 1382.png" alt="">Тест-драйв и обучение</button>
+                    <img src="./images/6V7A6482_adobespark 2.png" alt="">
+                </div>
+            </div>
+            <div class="header-bars  mt-10 ml-20">
+                <div class="rasrochka">
+                    <h1>Гарантия 1 год</h1>
+                    <h1>рассрочка</h1>
+                    <h1>Подарки</h1>
+                </div>
+                <div class="podarki">
+                    <h2>на весь ассортимент</h2>
+                    <h2>от 6 месяцев</h2>
+                    <h2>и бонусам к покупкам </h2>
+                </div>
+                <div class="yandex relative">
+                    <button class="flex gap-3 absolute left-[80%]  bottom-[0px]">
+                        <div class="text-white w-[70px] h-[49px] bg-[#FC3F1D] pt-1 font-bold text-3xl mt-2">Я</div>
+                        <span class="pt-2">Яндекс отзывы</span><br><span
+                            class="text-2xl font-bold pl-[10px] pr-[10px]">4,9 <i
+                                class="fas fa-star text-yellow-400 text-1xl"></i></span>
+                    </button>
+                </div>
+            </div>
+    </div>
+    </header>
+    <div class="samokati mt-[90px]">
+        <div class="flex ml-10">
+            <h1 class="text-black text-5xl font-bold mt-4">Электросамокаты</h1>
+            <div class="btn flex gap-10 ml-20 mt-5">
+                <button
+                    class="text-gray-500 bg-[#F4F7FB] w-[150px] rounded-xl  h-[50px] hover:border hover:border-blue-500 hover:bg-white duration-500 hover:text-blue-500">Хиты
+                    продаж</button>
+                <button
+                    class="text-gray-500 bg-[#F4F7FB] w-[150px] rounded-xl  h-[50px] hover:border hover:border-blue-500 hover:bg-white duration-500 hover:text-blue-500">Для
+                    города</button>
+                <button
+                    class="text-gray-500 bg-[#F4F7FB] w-[150px] rounded-xl  h-[50px] hover:border hover:border-blue-500 hover:bg-white duration-500 hover:text-blue-500">Для
+                    взрослых</button>
+                <button
+                    class="text-gray-500 bg-[#F4F7FB] w-[150px] rounded-xl  h-[50px] hover:border hover:border-blue-500 hover:bg-white duration-500 hover:text-blue-500">Для
+                    детей</button>
+            </div>
+        </div>
+        <div class="flex ml-7">
+            <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                <div class="cards w-[275px] h-[250px] bg-[url(./images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                    <div class="btn-icon flex relative">
+                        <button
+                            class="w-[50px] h-[30px] absolute bg-[#EE685F] text-white bottom-[40px] left-[10px] rounded-md">ХИТ</button>
+                        <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                    </div>
+                    <div class="icons flex justify-around gap-[150px] pt-10">
+                        <div class="text-blue-500 w-[40px] h-[40px] bg-white rounded-full"><i
+                                class="fas fas fa-chevron-left pt-3 pl-3"></i></div>
+                        <div class="text-blue-500 w-[40px] h-[40px] bg-white rounded-full"><i
+                                class="fas fas fa-chevron-right pt-3 pl-3"></i></div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                    <div class="flex gap-2 pt-3">
+                        <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                        <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                        <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                        <h2 class="text-gray-400">1,2 л.с.</h2>
+                    </div>
+                    <div class="flex gap-2 pt-3">
+                        <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer1.png" alt="">
+                        <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                        <div class="img ml-14  pt-1">
+                            <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                        </div>
+                        <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900 ₽</span><br><span
+                                class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                        <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                class="fas fa-basket-shopping"></i></div>
+                        <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                class="fas fa-heart  "></i></div>
+                    </div>
+                    <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                </div>
+            </div>
+            <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                <div class="cards w-[275px] h-[250px] bg-[url(./images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                    <div class="btn-icon flex relative">
+                        <button
+                            class="w-[70px] h-[30px] absolute bg-[#75D14A] text-white bottom-[40px] left-[10px] rounded-md">Новинка</button>
+                        <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                    </div>
+                    <div class="icons flex justify-around gap-[150px] pt-10">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                    <div class="flex gap-2 pt-3">
+                        <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                        <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                        <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                        <h2 class="text-gray-400">1,2 л.с.</h2>
+                    </div>
+                    <div class="flex gap-2 pt-3">
+                        <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer1.png" alt="">
+                        <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                        <div class="img ml-14  pt-1">
+                            <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                        </div>
+                        <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900 ₽</span><br><span
+                                class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                        <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                class="fas fa-basket-shopping"></i></div>
+                        <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                class="fas fa-heart  "></i></div>
+                    </div>
+                    <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                </div>
+            </div>
+            <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                <div class="cards w-[275px] h-[250px] bg-[url(./images/38.png)] bg-no-repeat  bg-[#F0F1F5] pt-20">
+                    <div class="btn-icon flex relative">
+                        <button
+                            class="w-[50px] h-[30px] absolute bg-[#EE685F] text-white bottom-[40px] left-[10px] rounded-md">ХИТ</button>
+                        <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                    </div>
+                    <div class="icons flex justify-around gap-[150px] pt-10">
+
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                    <div class="flex gap-2 pt-3">
+                        <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                        <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                        <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                        <h2 class="text-gray-400">1,2 л.с.</h2>
+                    </div>
+                    <div class="flex gap-2 pt-3">
+                        <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer1.png" alt="">
+                        <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                        <div class="img ml-14  pt-1">
+                            <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                        </div>
+                        <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900 ₽</span><br><span
+                                class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                        <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                class="fas fa-basket-shopping"></i></div>
+                        <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                class="fas fa-heart  "></i></div>
+                    </div>
+                    <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                </div>
+            </div>
+            <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                <div class="cards w-[275px] h-[250px] bg-[url(./images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                    <div class="btn-icon flex relative">
+                        <button
+                            class="w-[70px] h-[30px] absolute bg-[#75D14A] text-white bottom-[40px] left-[10px] rounded-md">Новинка</button>
+                        <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                    </div>
+                    <div class="icons flex justify-around gap-[150px] pt-10">
+
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                    <div class="flex gap-2 pt-3">
+                        <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                        <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                        <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                        <h2 class="text-gray-400">1,2 л.с.</h2>
+                    </div>
+                    <div class="flex gap-2 pt-3">
+                        <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer1.png" alt="">
+                        <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                        <div class="img ml-14  pt-1">
+                            <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                        </div>
+                        <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900 ₽</span><br><span
+                                class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                        <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                class="fas fa-basket-shopping"></i></div>
+                        <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                class="fas fa-heart  "></i></div>
+                    </div>
+                    <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex ml-7">
+            <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                <div class="cards w-[275px] h-[250px] bg-[url(./images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                    <div class="btn-icon flex relative">
+                        <button
+                            class="w-[50px] h-[30px] absolute bg-[#EE685F] text-white bottom-[40px] left-[10px] rounded-md">ХИТ</button>
+                        <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                    </div>
+                    <div class="icons flex justify-around gap-[150px] pt-10">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                    <div class="flex gap-2 pt-3">
+                        <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                        <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                        <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                        <h2 class="text-gray-400">1,2 л.с.</h2>
+                    </div>
+                    <div class="flex gap-2 pt-3">
+                        <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer1.png" alt="">
+                        <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                        <div class="img ml-14  pt-1">
+                            <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                        </div>
+                        <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900 ₽</span><br><span
+                                class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                        <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                class="fas fa-basket-shopping"></i></div>
+                        <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                class="fas fa-heart  "></i></div>
+                    </div>
+                    <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                </div>
+            </div>
+            <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                <div class="cards w-[275px] bg-[url(./images/38.png)] bg-no-repeat h-[250px] bg-[#F0F1F5] pt-20">
+                    <div class="btn-icon flex relative">
+                        <button
+                            class="w-[70px] h-[30px] absolute bg-[#75D14A] text-white bottom-[40px] left-[10px] rounded-md">Новинка</button>
+                        <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                    </div>
+                    <div class="icons flex justify-around gap-[150px] pt-10">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                    <div class="flex gap-2 pt-3">
+                        <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                        <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                        <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                        <h2 class="text-gray-400">1,2 л.с.</h2>
+                    </div>
+                    <div class="flex gap-2 pt-3">
+                        <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer1.png" alt="">
+                        <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                        <div class="img ml-14  pt-1">
+                            <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                        </div>
+                        <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900 ₽</span><br><span
+                                class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                        <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                class="fas fa-basket-shopping"></i></div>
+                        <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                class="fas fa-heart  "></i></div>
+                    </div>
+                    <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                </div>
+            </div>
+            <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                <div class="cards w-[275px] bg-[url(./images/38.png)] bg-no-repeat h-[250px] bg-[#F0F1F5] pt-20">
+                    <div class="btn-icon flex relative">
+                        <button
+                            class="w-[50px] h-[30px] absolute bg-[#EE685F] text-white bottom-[40px] left-[10px] rounded-md">ХИТ</button>
+                        <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                    </div>
+                    <div class="icons flex justify-around gap-[150px] pt-10"></div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                    <div class="flex gap-2 pt-3">
+                        <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                        <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                        <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                        <h2 class="text-gray-400">1,2 л.с.</h2>
+                    </div>
+                    <div class="flex gap-2 pt-3">
+                        <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer1.png" alt="">
+                        <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                        <div class="img ml-14  pt-1">
+                            <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                        </div>
+                        <h2 class="text-gray-400 pt-1">5 часов</h2>
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900 ₽</span><br><span
+                                class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                        <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                class="fas fa-basket-shopping"></i></div>
+                        <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                class="fas fa-heart  "></i></div>
+                    </div>
+                    <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                </div>
+            </div>
+            <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                <div class="cards w-[275px] h-[250px] bg-[url(./images/ 38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                    <div class="btn-icon flex relative">
+                        <button
+                            class="w-[70px] h-[30px] absolute bg-[#75D14A] text-white bottom-[40px] left-[10px] rounded-md">Новинка</button>
+                        <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                    </div>
+                    <div class="icons flex justify-around gap-[150px] pt-10">
+
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                    <div class="flex gap-2 pt-3">
+                        <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                        <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+
+                        <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                        <h2 class="text-gray-400">1,2 л.с.</h2>
+                    </div>
+                    <div class="flex gap-2 pt-3">
+                        <img class=" text-gray-400  pl-3 w-[30px] h-[22px]" src="./images/speedometer1.png" alt="">
+                        <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                        <div class="img ml-14 pt-1">
+                            <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                        </div>
+                        <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900 ₽</span><br><span
+                                class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                        <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                class="fas fa-basket-shopping"></i></div>
+                        <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                class="fas fa-heart"></i></div>
+                    </div>
+                    <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                </div>
+            </div>
+        </div>
+        <div class="podbor-model">
+            <button>Смотреть все</button>
+            <div class="flex gap-10 mt-[100px] ml-[130px] ">
+                <div class="sevise flex w-[540px] h-[235px] bg-[#F4F7FB] rounded-lg pl-8">
+                    <div class="">
+                        <h1 class="text-4xl mt-4 font-bold">Подбор модели <br> электросамоката</h1>
+                        <h2 class="mt-3">Пройдите тест и выберите <br> электросамокат по своим критериям</h2>
+                        <a class="text-[#6F73EE] font-bold mt-5" href="#">Подобрать модель
+                            <i class="fas fa-arrow-right ml-4 mt-2"></i>
+                    </div>
+                    <div class="flex absolute ">
+                        <img class="h-[233px] w-[200px] rounded-lg mb-[200px] bg-[#6F73EE]"
+                            src="./images/6V7A6501-removebg-preview 1.png" alt="">
+                    </div>
+                    </a>
+                </div>
+                <div class="sevise w-[540px] h-[235px] bg-[#F4F7FB] pl-7 flex">
+                    <div class="">
+                        <h1 class="text-4xl mt-4 font-bold">Сервисное <br>обслуживание</h1>
+                        <h2 class="mt-3">Крупнейший сервисный центр <br> в России для продуктов Kugoo</h2>
+                        <a class="text-[#6F73EE] font-bold mt-5" href="#">Подобрать модель
+                            <i class="fas fa-arrow-right ml-4 mt-2"></i>
+                    </div>
+                    <div class="absolute top-[2910px] ml-14 ">
+                        <img class="bg-[#6F73EE] rounded-lg" src="./images/populyarni.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="dostafka w-full min-h-[90vh]">
+        <div class="w-[1347px] h-[421px] flex bg-[#595959]">
+            <div>
+                <img src="./images/дрон 1.png" alt="">
+            </div>
+            <div class="mt-10">
+                <button class="text-white text-1xl w-[62px] h-[27px] bg-[#EE685F] rounded-lg">Акция</button>
+                <h1 class="text-white text-4xl mt-8">Бесплатная доставка <br> электросамокатовпо <br> России до 01.09
+                </h1>
+                <button class="w-[132px] h-[53px] bg-white text-black rounded-lg mt-8">Подробнее</button>
+            </div>
+        </div>
+    </div>
+    <div class="w-full min-h-screen">
+        <div class="flex ml-20">
+            <h1 class="text-black text-5xl">Популярные категории</h1>
+            <div class="w-[279px] h-[91px] bg-[#F4F7FB] flex ml-[300px]">
+
+
+                <img class="pt-4 pl-2 h-[71px]" src="./images/24.png " alt="">
+                <p class="text-black text-[12px] pt-4 pl-4">Менеджер ответит на любой <br> ваш вопрос о продуктах Kugoo
+                    <span class="text-[#6F73EE] pt-5">Задать вопрос</span>
+                </p>
+            </div>
+        </div>
+        <div class="flex gap-11 ml-20 mt-16">
+            <div class="Робот-пылесоссы w-[257px] h-[254px] ">
+                <div class="ml-3 mt-[180px] w-[233px] h-[69px] bg-gray-400/70 rounded-lg pt-2 pl-3">
+                    <h1 class="text-white text-[18px]">Робот-пылесоссы <br><span class="text-white text-[14px]">от 29
+                            900 ₽</span></h1>
+                </div>
+            </div>
+            <div class="Электровелосипеды">
+                <div class="ml-3 mr-2 mt-[180px] w-[233px] h-[69px] bg-gray-400/70 rounded-lg pt-2 pl-3">
+                    <h1 class="text-white text-[18px]"> Электровелосипеды <br><span class="text-white text-[14px]">от 29
+                            900 ₽</span></h1>
+                </div>
+            </div>
+
+            <div class="Весы">
+                <div class="ml-3 mr-2 mt-[180px] w-[233px] h-[69px] bg-gray-400/70 rounded-lg pt-2 pl-3">
+                    <h1 class="text-white text-[18px]">Весы <br><span class="text-white text-[14px]">от 29 900 ₽</span>
+                    </h1>
+                </div>
+            </div>
+
+
+            <div class="Робот-пылесоссы w-[257px] h-[254px] ">
+                <div class="ml-3 mt-[180px] w-[233px] h-[69px] bg-gray-400/70 rounded-lg pt-2 pl-3">
+                    <h1 class="text-white text-[18px]">Робот-пылесоссы <br><span class="text-white text-[14px]">от 29
+                            900 ₽</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-11 ml-20 mt-16">
+            <div class="Весы">
+                <div class="ml-3 mr-2 mt-[180px] w-[233px] h-[69px] bg-gray-400/70 rounded-lg pt-2 pl-3">
+                    <h1 class="text-white text-[18px]">Весы <br><span class="text-white text-[14px]">от 29 900 ₽</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="Робот-пылесоссы w-[257px] h-[254px] ">
+                <div class="ml-3 mt-[180px] w-[233px] h-[69px] bg-gray-400/70 rounded-lg pt-2 pl-3">
+                    <h1 class="text-white text-[18px]">Робот-пылесоссы <br><span class="text-white text-[14px]">от 29
+                            900 ₽</span></h1>
+                </div>
+            </div>
+
+            <div class="Электровелосипеды">
+                <div class="ml-3 mr-2 mt-[180px] w-[233px] h-[69px] bg-gray-400/70 rounded-lg pt-2 pl-3">
+                    <h1 class="text-white text-[18px]">Робот-пылесоссы <br><span class="text-white text-[14px]">от 29
+                            900 ₽</span></h1>
+                </div>
+            </div>
+
+
+            <div class="Весы  ">
+                <div class="ml-3 mr-2   mt-[180px] w-[233px] h-[69px] bg-gray-400/70 rounded-lg pt-2 pl-3">
+                    <h1 class="text-white text-[18px]">Весы <br><span class="text-white text-[14px]">от 29 900 ₽</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="new-div w-full min-h-screen">
+        <button>Смотреть все</button>
+        <div class="w-[1280px] h-[603px] bg-[#F4F7FB] ml-9 mt-20 rounded-xl flex ">
+            <div class="new-image h-[565px] w-[748px] absolute left-[80px] top-[4820px]">
+                <div class="w-[220px] h-[149px] bg-gray-400/80 rounded-xl pt-4 ml-[350px]  mt-[300px]">
+                    <h1 class="text-white text-[18px] pl-2">Тест-драйв в Москве<br><span class="text-[14px]">Оцените все
+                            преимущества <br> самокатов лично</span></h1>
+
+
+                    <div class="w-[220px] h-[42px] text-white bg-[#6F73EE] mt-2 rounded-lg pt-2 pl-5"><a
+                            href="#">Подробнее
+                            <i class="fas fa-arrow-right ml-20 mt-1"></i>
+                        </a></div>
+                </div>
+            </div>
+            <div class="ml-[700px] mt-14">
+                <h1 class="text-[35px] font-[600]">Kugoo-Russia — первый <br> официальный дилер <br> Kugoo Kirin в
+                    России</h1>
+                <p class="mt-10">Наша цель предоставить полный ассортимент современной продукции <br> Kugoo Kirin,
+                    которая улучшает и упрощает жизнь. Стремимся подарить <br> комфорт и эмоции, поэтому помогаем с
+                    выбором и внимательно относимся <br> к сервисному обслуживанию.</p>
+                <div class="w-[540px] h-[204px] bg-[#fff] rounded-lg flex flex-col gap-4 mt-5">
+                    <h1 class="text-[14px] pt-3 pl-1 text-black font-bold">Специализируемся исключительно на бренде
+                        Kugoo, поэтому вы получите:</h1>
+                    <p class="text-[14px] pl-8  gap-3">цены от завода-изготовителя Jilong ; <br>
+                        бесплатный тест-драйв самокатов; <br>
+                        фирменную гарантию 1 год; <br>
+                        ремонт и обслуживание от 1 дня в собственном сервисном центре; <br>
+                        более 1 000 запчастей и аксессуаров в наличии</p>
+                    <a class="text-[#6F73EE] pl-4" href="#">Смотреть сертификат</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line-div w-full min-h-screen">
+        <h1 class="text-[35px] text-center font-bold">Предлагаем самые выгодные цены <br>
+            на продукты Kugoo за счет прямых поставок</h1>
+        <p class="text-[20px] text-center pt-4">и заботимся об удобстве покупателей</p>
+        <div class="flex gap-10 ml-[100px] mt-10">
+            <div class="w-[350px] h-[225px] border border-gray-400 flex flex-col pt-6 pl-4 gap-4 rounded-xl">
+                <i class="fas fa-basket-shopping text-[#6F73EE] text-[20px]"></i>
+                <h1 class="text-[18px] font-meidum">Х товаров в каталоге</h1>
+                <p class="text-[14px]">Выбирайте товар, который подходит по цене <br> и характеристикам. Если товара нет
+                    в наличии — <br> мы сообщим вам о его поступлении. </p>
+            </div>
+
+            <div class="w-[350px] h-[225px] border border-gray-400 flex flex-col pt-6 pl-4 gap-4 rounded-xl">
+                <i class="fas fa-wallet text-[#6F73EE] text-[20px]"></i>
+                <h1 class="text-[18px] font-meidum">5 способов оплаты</h1>
+                <p class="text-[14px]">Вы можете оплатить покупку наличными, <br> картой, онлайн на сайте, через
+                    интернет- <br> банкинг или в кредит от «Сбербанка». </p>
+            </div>
+            <div class="w-[350px] h-[225px] border border-gray-400 flex flex-col pt-6 pl-4 gap-4 rounded-xl">
+                <div class="w-[25px] h-[25px] rounded-full bg-[#6F73EE] text-white pt-1 pl-0.5"><i
+                        class="fas fa-check  text-[20px]"></i></div>
+                <h1 class="text-[18px] font-meidum">Полная документация <br> и гарантия 1 год</h1>
+                <p class="text-[14px]">При покупке вам выдается кассовый чек, <br> товарный чек и гарантийный талон –
+                    эти <br> документы дают право на гарантийное <br> обслуживание. </p>
+            </div>
+        </div>
+        <div class="flex gap-10 ml-[100px] mt-10">
+            <div class="w-[350px] h-[225px] border border-gray-400 flex flex-col pt-6 pl-4 gap-4 rounded-xl">
+                <img class="w-[24px]" src="./images/Group (2).png" alt="">
+
+                Shoxjahon, [21.01.2023 12:36]
+                <h1 class="text-[18px] font-meidum">Отправка заказа день в день</h1>
+                <p class="text-[14px]">Отправляем заказы по всей России день в день <br> или забирайте товар
+                    самостоятельно в магазинах <br> в Москве, Санкт-Петербурге и Краснодаре </p>
+            </div>
+
+            <div class="w-[350px] h-[225px] border border-gray-400 flex flex-col pt-6 pl-4 gap-4 rounded-xl">
+                <div class="text-[#6F73EE] text-[26px] font-bold">%</div>
+                <h1 class="text-[18px] font-meidum">Рассрочка без переплат</h1>
+                <p class="text-[14px]">В нашем магазине можно приобрести любой <br> товар в рассрочку. <br><span
+                        class="text-[#6F73EE]">Подробнее про условия рассрочки</span> </p>
+            </div>
+            <div
+                class="w-[350px] h-[225px] border border-gray-400 relative bg-[#F4F7FB]  flex-col pt-16 flex pl-4 gap-4 rounded-xl">
+                <h1 class="text-[18px] font-meidum pt-5">Больше в каталоге</h1>
+                <p class="text-[14px] text-[#6F73EE]">Перейти
+                    <i class="fas fa-arrow-right text-[#6F73EE]"></i>
+                <div class="ml-20 absolute top-3.5 bottom-14 left-10">
+                    <img class="h-[209px]" src="./images/5.png" alt="">
+                </div>
+                </p>
+            </div>
+        </div>
+        <div
+            class="photos w-full min-h-screen bg-[url(./images/6.png)] bg-no-repeat mt-10 flex items-center justify-center">
+            <div class="w-[136px] h-[136px] rounded-full bg-white"><i class="fas fa-play pl-[60px] pt-14 text-[30px]
+                    text-[#6F73EE]"></i></div>
+        </div>
+        <div class="w-full min-h-screen">
+            <h1 class="text-[35px] font-[600] text-center">Отзывы и фото реальных покупателей</h1>
+            <p class="text-[#6F73EE] text-center">Читать отзывы на Яндекс
+                <i class="fas fa-arrow-right"></i>
+
+
+            <div class="my-photos flex gap-3 mt-5">
+                <img src="./images/7.png" alt="">
+                <img src="./images/8.png" alt="">
+                <div
+                    class="bg-[url(./images/9.png)] w-[388px] h-[292px] bg-no-repeat rounded-lg flex flex-col gap-3 pt-20 pl-3">
+                    <div class="flex gap-3">
+                        <img src="./images/12.png" alt="">
+                        <h1 class="text-[16px] text-white">Илья М<br><span class="text-[12px]">Знаток города 2
+                                уровня</span></h1>
+                    </div>
+                    <div class="flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star  text-yellow-400"></i>
+                        <i class="fas fa-star  text-yellow-400"></i>
+                        <i class="fas fa-star  text-yellow-400"></i>
+                        <i class="fas fa-star  text-yellow-400"></i>
+                        <p class="text-white text-[12px] pl-3">23 сентября 2020</p>
+
+                    </div>
+                    <h1 class="text-[12px] text-white">Магазин очень понравился, быстро обслужили, <br> персонал хорошо
+                        знает свой товар, вежливо и <br> грамотно консультирует, ассортимент внушительный, <br> а если
+                        чего нет сейчас в наличии, то можно без <br> проблем заказать на сайте, так что всем рекомендую!
+                    </h1>
+                </div>
+                <img src="./images/10.png" alt="">
+                <img src="./images/11.png" alt="">
+            </div>
+            <div class="my-foto flex gap-3.5 mt-5">
+                <img src="./images/11.png" alt="">
+                <img src="./images/13.png" alt="">
+                <img src="./images/14.png" alt="">
+                <img src="./images/15.png" alt="">
+                <img src="./images/16.png" alt="">
+                <img src="./images/17.png" alt="">
+            </div>
+            </p>
+
+
+        </div>
+        <div class="w-full min-h-screen">
+            <div class="flex">
+                <h1 class="text-black text-[35px] font-[600] pt-20  pl-20">Видеообзоры<br>
+                    <p class=" text-gray-400 text-[14px] font-normal pt-4">Узнайте больше о самокатах Kugoo и посмотрите
+                        сравнительные <br> обзоры разных моделей на нашем YouTube-канале.</p>
+                </h1>
+                <a class="text-[#6F73EE] pt-28 pl-[500px] font-medium" href="#">Смотреть все видеообзоры<i
+                        class="fas fa-arrow-right pl-4 pt-1"></i></a>
+            </div>
+            <div class="flex gap-5 mt-10 ml-20">
+                <div class="bg-[url(./images/18.png)] w-[540px] h-[306px] bg-no-repeat rounded-lg border">
+                    <div class="w-[104px] h-[104px] rounded-full bg-white mt-20 ml-[200px]"><i class="fas fa-play pl-[42px] pt-10 text-[30px]
+                    text-[#6F73EE]"></i></div>
+                    <h1 class="text-[18px] pt-[130px]">Крутой и городской? Обзор Kugoo XS Plus</h1>
+                </div>
+                <div class="w-[350px] h-[200px] bg-[url(./images/19.png)] bg-no-repeat z-10 rounded-lg border">
+                    <div class="w-[68px] h-[68px] rounded-full bg-white mt-16 ml-[130px]"><i class="fas fa-play pl-[28px] pt-6 text-[20px]
+                    text-[#6F73EE]"></i></div>
+                    <h1 class="text-black text-[18px] pt-[85px]">Крутой и городской? <br> Обзор Kugoo XS Plus</h1>
+                </div>
+                <div class="w-[68px] h-[68px] bg-[#6F73EE] z-30 rounded-full mt-16"><i
+                        class="fas fa-chevron-right pt-6 pl-[26px] text-white "></i></div>
+                <div class="w-[320px] h-[200px] bg-[url(./images/20.png)] z-10 bg-no-repeat rounded-lg border">
+                    <div class="w-[68px] h-[68px] rounded-full bg-white mt-16 ml-[130px]"><i class="fas fa-play pl-[28px] pt-6 text-[20px]
+                    text-[#6F73EE]"></i></div>
+                    <h1 class="text-black text-[18px] pt-[85px]">Крутой и городской? <br> Обзор Kugoo XS Plus</h1>
+                </div>
+            </div>
+        </div>
+        <div class="w-full min-h-[80vh]">
+            <h1 class="text-[35px] font-bold ml-20">Новые статьи в блоге</h1>
+            <div class="flex">
+                <div class="bg-[#F4F7FB] h-[365px] w-[350px] ml-20 mt-10 rounded-xl">
+                    <img class="rounded-xl" src="./images/21.png" alt="">
+                    <div class="pl-7 pt-4">
+                        <h1 class="text-[20px]">Как правильно заряжать <br> электросамокат</h1>
+                        <p class="text-[14px] text-black-400/50 pt-3">Один из первых вопросов, который волнует <br>
+                            после покупки электросамоката.</p>
+                        <div class="pt-4">
+                            <i class="fas fa-calendar-days"></i>
+                            <a href="#">01.09.2021</a>
+                            <i class="fas fa-eye pl-5"></i>
+                            <a href="#">53</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[#F4F7FB] h-[365px] w-[350px] ml-20 mt-10">
+                    <img class="rounded-xl" src="./images/22.png" alt="">
+                    <div class="pl-7 pt-4">
+                        <h1 class="text-[20px]">Как правильно заряжать <br> электросамокат</h1>
+                        <p class="text-[14px] text-black-400/50 pt-3">Один из первых вопросов, который волнует <br>
+                            после покупки электросамоката.</p>
+                        <div class="pt-4">
+                            <i class="fas fa-calendar-days"></i>
+                            <a href="#">01.09.2021</a>
+                            <i class="fas fa-eye pl-5"></i>
+                            <a href="#">53</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="bg-[#F4F7FB] h-[365px] w-[350px] ml-20 mt-10">
+                    <img class="rounded-xl" src="./images/23.png" alt="">
+                    <div class="pl-7 pt-4">
+                        <h1 class="text-[20px]">Как правильно заряжать <br> электросамокат</h1>
+                        <p class="text-[14px] text-black-400/50 pt-3">Один из первых вопросов, который волнует <br>
+                            после покупки электросамоката.</p>
+                        <div class="pt-4">
+                            <i class="fas fa-calendar-days"></i>
+                            <a href="#">01.09.2021</a>
+                            <i class="fas fa-eye pl-5"></i>
+                            <a href="#">53</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full min-h-screen">
+            <h1 class="text-[35px] font-[600] uppercase text-center">Отвечаем на вопросы <br> покупателей</h1>
+            <div class="w-[880px] h-[612px]  ml-[250px] mt-10">
+                <div class="flex">
+                    <h1 class="text-[16px] font-bold">Есть ли гарантия того, что придет именно то, что было заказано? А
+                        если я оплачу <br> и товар не придет?</h1>
+                    <i class="fas fa-plus pt-4 pl-28 text-[20px]"></i>
+                </div>
+                <div class="flex   pt-10">
+                    <h1 class="text-[16px] font-bold">У меня в городе самокаты Kugoo дешевле. Почему?</h1>
+                    <i class="fas fa-plus pt-4 pl-[353px] text-[20px]"></i>
+                </div>
+                <div class="flex   pt-10">
+                    <h1 class="text-[16px] font-bold">Как осуществляется сервисное обслуживание в моем городе? Где
+                        гарантия, что <br> меня обслужат?</h1>
+                    <i class="fas fa-xmark pt-4 pl-[130px] text-[20px]"></i>
+
+                </div>
+                <p class="text-[14px] text-[#282739] pt-5">При покупке электросамоката у нас, вам выдается кассовый чек,
+                    товарный чек и гарантийный талон – эти <br> brдокументы дают право на гарантийное обслуживание на
+                    законодательном уровне. <br> <br>
+
+                    Наши сервисные центры находятся в Москве, Санкт-Петербурге и Краснодаре. В случае поломки вы можете
+                    <br> обратиться туда. <br> <br>
+
+                    Если вы живете в городе, где нет нашего сервисного центра, то наш специалист поможет решить вопрос
+                    <br> удаленно. Он сможет понять какая запчасть вышла из строя и отправит ее вам, если вы сможете
+                    сами <br> заменить ее. Если удаленно решить вопрос не удастся, специалист создаст трек номер и
+                    попросит вас <br> отправить самокат транспортной компанией CDEK. Транспортировку Товара (с
+                    ремонта/на ремонт) <br> Покупатель оплачивает самостоятельно или осуществляет доставку Товара до СЦ
+                    своими силами и за свой <br> счет. <br><br>
+
+                    В соответствии со ст. 20 ФЗ «О защите прав потребителей» на ремонт по гарантии дается не более 45
+                    <br> дней. В городах, где есть наш сервисный центр ремонт проводится за 3-7 дней.
+                </p>
+                <div class="flex   pt-8">
+                    <h1 class="text-[16px] font-bold">У меня в городе самокаты Kugoo дешевле. Почему?</h1>
+                    <i class="fas fa-plus pt-1 pl-[353px] text-[20px]"></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="w-full min-h-screen pt-20">
+            <h1 class="text-[35px] uppercase font-bold text-center">часто покупают</h1>
+
+
+            <div class="flex ml-14">
+                <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                    <div class="cards w-[275px] h-[250px] bg-[url(./images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                        <div class="btn-icon flex relative">
+                            <button
+                                class="w-[50px] h-[30px] absolute bg-[#EE685F] text-white bottom-[40px] left-[10px] rounded-md">ХИТ</button>
+                            <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                        </div>
+                        <div class="icons flex justify-around gap-[150px] pt-10">
+                            <div class="text-blue-500 w-[40px] h-[40px] bg-white rounded-full"><i
+                                    class="fas fas fa-chevron-left pt-3 pl-3"></i></div>
+                            <div class="text-blue-500 w-[40px] h-[40px] bg-white rounded-full"><i
+                                    class="fas fas fa-chevron-right pt-3 pl-3"></i></div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                        <div class="flex gap-2 pt-3">
+                            <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                            <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                            <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                            <h2 class="text-gray-400">1,2 л.с.</h2>
+                        </div>
+                        <div class="flex gap-2 pt-3">
+                            <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer 1.png"
+                                alt="">
+                            <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                            <div class="img ml-14  pt-1">
+                                <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                            </div>
+                            <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                        </div>
+                        <div class="flex gap-3">
+                            <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900
+                                    ₽</span><br><span class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                            <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                    class="fas fa-basket-shopping"></i></div>
+                            <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                    class="fas fa-heart  "></i></div>
+                        </div>
+                        <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                    </div>
+                </div>
+                <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                    <div class="cards w-[275px] bg-[url(./images/38.png)] bg-no-repeat h-[250px] bg-[#F0F1F5] pt-20">
+                        <div class="btn-icon flex relative">
+                            <button
+                                class="w-[70px] h-[30px] absolute bg-[#75D14A] text-white bottom-[40px] left-[10px] rounded-md">Новинка</button>
+                            <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                        </div>
+                        <div class="icons flex justify-around gap-[150px] pt-10">
+
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                        <div class="flex gap-2 pt-3">
+                            <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                            <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                            <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                            <h2 class="text-gray-400">1,2 л.с.</h2>
+                        </div>
+                        <div class="flex gap-2 pt-3">
+
+
+                            <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer 1.png"
+                                alt="">
+                            <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                            <div class="img ml-14  pt-1">
+                                <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                            </div>
+                            <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                        </div>
+                        <div class="flex gap-3">
+                            <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900
+                                    ₽</span><br><span class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                            <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                    class="fas fa-basket-shopping"></i></div>
+                            <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                    class="fas fa-heart  "></i></div>
+                        </div>
+                        <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                    </div>
+                </div>
+                <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                    <div class="cards w-[275px] h-[250px] bg-[url(./images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                        <div class="btn-icon flex relative">
+                            <button
+                                class="w-[50px] h-[30px] absolute bg-[#EE685F] text-white bottom-[40px] left-[10px] rounded-md">ХИТ</button>
+                            <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                        </div>
+                        <div class="icons flex justify-around gap-[150px] pt-10">
+
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                        <div class="flex gap-2 pt-3">
+                            <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                            <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                            <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                            <h2 class="text-gray-400">1,2 л.с.</h2>
+                        </div>
+                        <div class="flex gap-2 pt-3">
+                            <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer 1.png"
+                                alt="">
+                            <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                            <div class="img ml-14  pt-1">
+                                <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                            </div>
+                            <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                        </div>
+                        <div class="flex gap-3">
+                            <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900
+                                    ₽</span><br><span class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                            <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                    class="fas fa-basket-shopping"></i></div>
+                            <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                    class="fas fa-heart  "></i></div>
+                        </div>
+                        <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+
+                    </div>
+                </div>
+
+                <div class="card-samokat w-[275px] h-[520px] mt-20 ml-10 border rounded-md">
+                    <div class="cards w-[275px] h-[250px] bg-[url(./images/38.png)] bg-no-repeat bg-[#F0F1F5] pt-20">
+                        <div class="btn-icon flex relative">
+                            <button
+                                class="w-[70px] h-[30px] absolute bg-[#75D14A] text-white bottom-[40px] left-[10px] rounded-md">Новинка</button>
+
+
+                            <i class="fas fa-scale-balanced absolute bottom-[50px] left-[230px]"></i>
+                        </div>
+                        <div class="icons flex justify-around gap-[150px] pt-10">
+
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <h1 class="font-bold text-2xl pt-4 pl-3">Kugoo Kirin M4</h1>
+                        <div class="flex gap-2 pt-3">
+                            <i class="fas fa-car-battery text-gray-400 text-2xl pl-3"></i>
+                            <h2 class="text-gray-400 pt-1 ">2000 mAh</h2>
+                            <i class="fas fa-bolt text-2xl text-gray-400 pl-10"></i>
+                            <h2 class="text-gray-400">1,2 л.с.</h2>
+                        </div>
+                        <div class="flex gap-2 pt-3">
+                            <img class=" text-gray-400   pl-3 w-[30px] h-[22px]" src="./images/speedometer 1.png"
+                                alt="">
+                            <h2 class="text-gray-400 pt-1 ">60 км/ч</h2>
+                            <div class="img ml-14  pt-1">
+                                <img class=" text-gray-400 w-[30px] h-[22px]" src="./images/09-timer.png" alt="">
+                            </div>
+                            <h2 class="text-gray-400 pt-1 ">5 часов</h2>
+                        </div>
+                        <div class="flex gap-3">
+                            <h2 class="text-white pt-8 pl-3"><span class="text-gray-400 text-1xl">39 900
+                                    ₽</span><br><span class="text-black text-2xl font-medium">29 900 ₽</span></h2>
+                            <div class=" pl-2 pt-2 ml-10 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border  "><i
+                                    class="fas fa-basket-shopping"></i></div>
+                            <div class="pt-2 pl-2.5 mt-12 text-blue-400 rounded-full w-[40px] h-[40px] border"><i
+                                    class="fas fa-heart  "></i></div>
+                        </div>
+                        <button class="w-[220px] h-[37px] bg-[#6F73EE] text-white ml-6 mt-2">Купить в 1 клик</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer class="w-full min-h-screen">
+            <div class="w-full min-h-[605px] border mt-20 bg-[#F4F7FB]">
+                <div class="w-full h-[97px] bg-[#6F73EE] flex gap-10 items-center justify-center">
+                    <h1 class="uppercase text-white text-[18px] font-[600] ">Оставьте свою почту и станьте первым, <br>
+                        кто получит скидку на новые самокаты</h1>
+                    <input class="rounded-md pl-5 capitalize text-white placeholder:text-white outline-none" type="text"
+                        id="email" placeholder="Введите Ваш email">
+                    <div class="w-[140px] h-[53px] bg-white text-[#6F73EE] flex justify-center items-center"><a
+                            href="#">Подписаться</a></div>
+                </div>
+                <div class="flex gap-12 ml-20 mt-20">
+                    <div class="flex flex-col gap-5">
+                        <h1 class="text-black text-[24px] font-medium">Каталог товаров</h1>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Электросамокаты</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Электроскутеры</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Электровелосипеды</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Электровелосипеды</a>
+                    </div>
+                    <div class="flex flex-col gap-6">
+                        <h1 class="text-black text-[24px] font-medium">Покупателям</h1>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Сервисный центр</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Доставка и оплата</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Рассрочка</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Тест-драйв</a>
+                    </div>
+                    <div class="flex flex-col gap-6 pt-12">
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Блог</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Сотрудничество</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Контакты</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Акции</a>
+                    </div>
+                    <div class="flex flex-col gap-4 ">
+                        <h1 class="text-black text-[24px] font-medium">Контакты</h1>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Call-центр</a>
+                        <a class="text-black text-2xl" href="tell:+7 (800) 505-54-61">+7 (800) 505-54-61</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Пн-Вс 10:00 - 20:00</a>
+                        <p class="text-black text-[14px] pt-5">Магазин в Москве <br>
+                            ул. Ткацкая, 5 стр. 16</p>
+                        <a class="font-[14px] text-[#5D6C7B]" href="tel:+7 (499) 406 15 87">+7 (499) 406 15 87</a>
+                    </div>
+                    <div class="flex flex-col gap-4 mt-10">
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Сервисный центр</a>
+                        <a class="text-black text-[16px]" href="tel:+7 (499) 350-76-92">+7 (499) 350-76-92</a>
+                        <a class="font-[14px] text-[#5D6C7B]" href="#">Пн-Вс 10:00 - 20:00</a>
+                        <h1 class="text-black text-[14px] pt-5">Магазин в Санкт- <br> Петербурге <br> ул. Фрунзе, 2</h1>
+                        <a class="font-[14px] text-[#5D6C7B]" href="tel:+7 (499) 406 15 87">+7 (499) 406 15 87</a>
+
+                    </div>
+                    <div class="flex flex-col">
+                        <a class="text-[12px] text-[#6F73EE] pl-10" href="Заказать звонок">Заказать звонок</a>
+                        <h1 class="text-black text-[14px] pt-[170px]">Магазин в Краснодаре <br>
+                            ул. Восточно- <br> Кругликовская, 86</h1>
+                        <a class="font-[14px] text-[#5D6C7B] pt-5" href="tel:+ 7 (800) 505 54 61">+ 7 (800) 505 54
+                            61</a>
+
+
+                    </div>
+                </div>
+                <div class="flex mt-5 ml-20 gap-5">
+                    <h1 class="text-black text-4xl uppercase font-[800]">Kugoo</h1>
+                    <img class="ml-16" src="./images/25.png" alt="">
+                    <img src="./images/26.png" alt="">
+                    <img class="ml-28" src="./images/27.png" alt="">
+                    <img src="./images/28.png" alt="">
+                    <img src="./images/29.png" alt="">
+                    <img src="./images/30.png" alt="">
+                </div>
+                <div class="flex gap-5 ml-20 mt-8">
+                    <p class="text-[12px] text-[#5D6C7B]">Реквизиты</p>
+                    <p class="text-[12px] text-[#5D6C7B]">Политика конфиденциальности</p>
+                    <img class="ml-[300px]" src="./images/31.png" alt="">
+                    <img src="./images/32.png" alt="">
+                    <img src="./images/33.png" alt="">
+                    <img src="./images/34.png" alt="">
+                    <img src="./images/35.png" alt="">
+                    <img src="./images/36.png" alt="">
+                    <img src="./images/37.png" alt="">
+                    <a href="Online чат:">Online чат:</a>
+                    <i class="fab fa-viber text-black pt-1"></i>
+                    <i class="fab fa-viber text-black pt-1"></i>
+                    <i class="fab fa-telegram    text-black pt-1"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

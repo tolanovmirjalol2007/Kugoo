@@ -1,0 +1,329 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.kugoo {
+  width: 100%;
+  min-height: 100vh;
+}
+.kugoo nav {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.kugoo nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  color: gray;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+.kugoo nav .menu a {
+  color: gray;
+  font-size: 20px;
+}
+.kugoo nav .menu i {
+  font-size: 20px;
+}
+.kugoo nav .call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.kugoo nav .call a {
+  color: black;
+  font-size: 20px;
+}
+.kugoo nav .call i {
+  padding-top: 4px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.kugoo .navbar {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  padding-left: 60px;
+}
+.kugoo .navbar button {
+  width: 120px;
+  height: 30px;
+  background: #6F73EE;
+  margin-top: 6px;
+  color: #fff;
+}
+.kugoo .navbar button:hover {
+  border: 1px solid #6F73EE;
+  background-color: white;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  color: black;
+}
+.kugoo .navbar input {
+  padding-left: 40px;
+  border: 2px solid #6F73EE;
+  width: 600px;
+  height: 40px;
+  color: #5D6C7B;
+}
+.kugoo .navbar > i {
+  padding-left: 12px;
+  gap: none;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  padding-top: 10px;
+  background: #6F73EE;
+  color: white;
+  border-radius: 5px;
+}
+.kugoo .navbar .img {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 16px;
+}
+.kugoo .navbar .img i {
+  padding-left: 14px;
+}
+.kugoo .navbar .img p {
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+.kugoo header {
+  width: 100%;
+  height: 100vh;
+}
+.kugoo header .magazine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  height: 10vh;
+  background: #F4F7FB;
+}
+.kugoo header .magazine a {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+.kugoo header .magazine button {
+  width: 200px;
+  height: 30px;
+  color: white;
+  background: #6F73EE;
+  border-radius: 20px;
+}
+.kugoo header .magazine img {
+  width: 30px;
+  height: 24px;
+  color: white;
+}
+.kugoo header .new-header {
+  margin-left: 40px;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 97%;
+  height: 67vh;
+  background: radial-gradient(58.73% 541.94% at 75.14% 62.23%, #A6A9FF 0%, #6F73EE 100%);
+}
+.kugoo header .new-header button {
+  width: 100px;
+  height: 40px;
+  border: 2px solid white;
+  color: black;
+  background: white;
+  border-radius: 10px;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+.kugoo header .new-header button:hover {
+  height: 40px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-weight: 700;
+}
+.kugoo header .new-header h1 {
+  padding-top: 10px;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+.kugoo header .new-header h2 {
+  color: white;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.kugoo header .new-header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 10px;
+  width: 247px;
+  background: white;
+  color: #6F73EE;
+  font-weight: 600;
+}
+.kugoo header .new-header img {
+  padding-left: 20px;
+}
+.kugoo header .new-right button {
+  margin-top: 300px;
+  width: 317px;
+  height: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  padding-top: 10px;
+}
+.kugoo header .new-right button:hover {
+  background: none;
+  height: 46px;
+  font-weight: normal;
+  border: 1px solid white;
+}
+.kugoo header .new-right button img {
+  padding: 1px;
+}
+.kugoo header .new-right > img {
+  width: 500px;
+}
+.kugoo .header-bars {
+  width: 80%;
+  height: 80px;
+}
+.kugoo .header-bars .rasrochka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+}
+.kugoo .header-bars .rasrochka h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.kugoo .header-bars .podarki {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 160px;
+}
+.kugoo .header-bars .podarki h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.samokati {
+  width: 100%;
+  min-height: 190vh;
+}
+
+.podbor-model {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.podbor-model button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 45%;
+  margin-top: 50px;
+  width: 142px;
+  height: 53px;
+  border: 1.3px solid #6F73EE;
+  color: #6F73EE;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Робот-пылесоссы {
+  background-image: url("../images/feki.png");
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.Электровелосипеды {
+  background-image: url(../images/velosiped.png);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.Весы {
+  background-image: url(../images/phone.png);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.Робот-пылесоссы {
+  background-image: url(../images/white-robot-vacuum-cleaner-effectively-cleans-floor-automatic-mode\ 1.png);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.new-div button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 45%;
+  margin-top: 50px;
+  width: 142px;
+  height: 53px;
+  border: 1.3px solid #6F73EE;
+  color: #6F73EE;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.new-div .new-image {
+  background-image: url(../images/happy.png);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 606px;
+  padding-top: 100px;
+}
+
+footer input {
+  border: none;
+  color: white;
+  width: 410px;
+  height: 53px;
+  background: rgba(255, 255, 255, 0.2);
+}
